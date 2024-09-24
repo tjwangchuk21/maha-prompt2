@@ -1,0 +1,42 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int num1;
+    int num2;
+    int num3;
+    cout << "Enter your first number between 1-10 : ";
+    cin >> num1;
+    cout << "Enter your second number between 1-10 : ";
+    cin >> num2;
+    cout << "Enter your third number between 1-10: ";
+    cin >> num3;
+    
+    if(num1 > num2 && num1 > num3){
+        cout << "The first number is the greatest";
+    }
+    
+    else if(num2 > num1 && num2 > num3){
+        cout << "The Second number is the greatest";
+    }
+    else if(num2 == num1){
+        cout << "The first number and second are equal";
+        
+    }
+    else if(num2 == num3){
+    cout << "The second and third are equal";
+    }
+    else if(num1 == num3){
+        cout << "The third and first numbers are equal";
+        
+    }
+    
+    
+    else{
+        cout << "The Third number is the greatest";
+    }
+    
+    
+    return 0;
+    
+}
