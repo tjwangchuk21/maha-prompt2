@@ -1,3 +1,8 @@
+/*
+Tj Wangchuk
+Mahas prompt
+alblas 09/24/24
+*/
 #include <iostream>
 using namespace std;
 int main()
